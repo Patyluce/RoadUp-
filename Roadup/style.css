@@ -1,0 +1,66 @@
+body{
+    
+    background-color: #1B0A41;    
+}
+*{
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 0;
+}
+.load {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+ 
+}
+.load div{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    border-radius: 50%;
+    margin-top: -5%;
+    animation: anima 1s ease-in-out infinite alternate;
+  
+}
+.load div:nth-child(1){
+    animation-delay: -0.4s;
+}
+.load div:nth-child(2){
+    animation-delay: -0.2s;
+}
+
+@keyframes anima{
+    from{
+       transform: translateY(-100%);
+    }to{
+        transform: translateY(100%);
+    }
+   
+}
+h1,h3{
+    font-family: 'Raleway' , sans-serif;
+    text-align: center;
+}
+#road{
+    color: #FFFFFF;
+}
+#up{
+    color: #3658FF;
+  margin: auto;
+  margin-top: -5%;
+  margin-left: 17%;
+}
+div{
+    margin-top: 10%;
+    font-size: 2em;   
+}
+#roadup{
+    margin-left: -5%;
+}
+h3{
+   color: white;
+  margin-top: 10%;
+}
