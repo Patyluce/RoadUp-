@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #1B0A41;
+  background-image: url(../telas/Vector_2646\ 1.png);
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  width: 1226px;
+  height: 430.78px;
+  
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 455px;
+  margin-left: 542px;
+}
+
+.logo svg {
+  width: 486px;
+  height: 113.58px;
+}
+
+.login {
+  display: grid;
+  margin-top: 250px;
+  margin-left: 256px;
+  width: 481px;
+  height: 430.78px;
+  justify-content: center;
+
+}
+
+.login h2 {
+  text-align: center;
+  font-size: 38.13px;
+  margin-bottom: 50px;
+}
+
+form input {
+  width: 481px;
+  height: 68.08px;
+  padding: 10px;
+  border-radius: 26.7842px;
+  margin: 7px;
+  font-size: 19px;
+  color: white;
+  background: #311572;
+  border: 1.11601px solid #311572;
+}
+
+form button {
+  width: 481px;
+  height: 68.08px;
+  background: white;
+  margin: 7px;
+  border-radius: 26.7842px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+form label {
+  width: 61px;
+  height: 29px;
+  margin: 10px;
+  
+}
+
+.links {
+  display: flex;
+  width: 95%;
+  margin: 7px;
+  justify-content: space-between;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  padding-top: 30px;
+}
