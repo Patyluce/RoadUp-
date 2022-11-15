@@ -6,29 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela inicial</title>
     <link rel="stylesheet" href="../css/inicial.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
+
+    <header>
+
+        <nav>
+            <span class="material-symbols-outlined" onclick="menuClick()">
+                menu
+            </span>
+
+            <div class="logo">
+                
+                 <h1>RoadUp</h1>   
+            </div>
+        </nav>
+
+        <menu id="opcoes">
+
+            <a href="Seu perfil.html">
+                <h3 >Perfil</h3></a>
+            <a href="historia.html">
+                <h3>Conheça a nossa história</h3></div>
+            </a>
+            <a href="login.html">
+                <h3>Sair</h3>
+            </a>
+        </menu>
+
+    </header>
+
+    <section class="primeira-sessao">
+        <img id="pessoa" src="../menu/img/pessoa 1.png" alt="homem mexendo no notebook e sorrindo">
+
+        <div class="container-caixa">
+            <h1>Crie a sua estrada!</h1>
+            <p>Cursos e trilhas completos <br>
+                para você se encontrar na área. 
+            </p>
+
+            <div class="container-cursos">
+                
+                <div class="container-curso">
+                    <p>Curso Start Recife</p>
+                    <img src="../menu/img/start.png" alt="Curso Start">
+                    <button type="submit">Inscrever-se</button>
+                </div>
+
+                <div class="container-curso">
+                    <p>Curso Senac</p>
+                    <img src="../menu/img/senac.png" alt="Curso Senac">
+                    <button type="submit">Inscrever-se</button>
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="container-trilhas">
+
+            <h1>Trilhas</h1>
+
+
+        <div class="container-imagens">
+            <img src="https://img.freepik.com/vrije-vector/verloop-stappenplan-infographic-sjabloon_23-2149021745.jpg?size=626&ext=jpg" width="45%" alt="">
+
+            <img src="https://www.it-production.com/wp-content/uploads/2019/06/160743_Agiles-Projektmanagement-1024x752.jpg" alt="" width="40%">
+        </div>
+
+    </section>
    
-    <nav>
-        
-        <a href="login.html"><h3>Entrar</h3></a>
-        <a href="criarconta.html">
-        <h3 >Perfil</h3></a>
-        <a href="historia.html">
-        <h3>Conheça a nossa história</h3></div></a>
-    </nav>
-    
-    <div ><h1 id="road">Road</h1> <h1 id="up">Up</h1></div>
-     <h2>Crie a sua estrada !</h2>
-     <h2>O verdadeiro caminho das pedras</h2>
-
-     <div id="computer">  <h1 id="computer">&#x1F4BB;</h1></div>
-  
-     <div class="imagens">
-     <img src="https://img.freepik.com/vrije-vector/verloop-stappenplan-infographic-sjabloon_23-2149021745.jpg?size=626&ext=jpg" width="45%" alt="">
-
-   <img src="https://www.it-production.com/wp-content/uploads/2019/06/160743_Agiles-Projektmanagement-1024x752.jpg" alt="" width="40%">
-    </div>
+    <script>
+        function menuClick() {
+            if(opcoes.style.display == 'none') {
+                opcoes.style.display = 'block'
+            }
+            else {
+                opcoes.style.display = 'none'
+            }
+        }
+    </script>
 
     <!--<script> 
      window.alert('Aceita nossa política de privacidade ?')

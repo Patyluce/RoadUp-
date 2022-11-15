@@ -1,70 +1,131 @@
-body{
-    background-color: #1B0A41;
-   margin: 0 auto;
-   padding: 0;
-}
 *{
     font-family: 'Raleway' , sans-serif; 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-h1{
-    text-align: center;
+
+body{
+    background-color: #1B0A41;
 }
-#road{
-    color: #FFFFFF;
-}
-#up{
-    color: #3658FF;
-  margin: auto;
-  margin-top: -8%;
-  margin-left: 17%;
-}
-div{
-   margin-top: 5%;
-    margin-left: -5%;
-    font-size: 2em;   
-}
-h2{
-    color: aliceblue;
-    margin-top: 10%;
-    text-align: center;
-    font-size: em;
-}
-div.computer{
-     
-height: 210px;
-width: 210px;
-   }
-   #computer{
-    padding-left: 2%;
-   }
+
 nav{
+    display: flex;
+    align-items: center;
     background: #3658FF;
-    text-align: center;
-    color: aliceblue;
-    position: fixed;
-    top: 0;
+    color: rgb(255, 255, 255);
+    height: 50px;
+}
+
+nav:hover {
+    background-color: white;
+    color: #1B0A41;
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 100%;
 }
-h3{
-    display: inline-block;
-    padding: 2%;
-    margin-bottom: -2%;
-    margin: -0.55%;
+
+nav span {
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+menu {
+    display: grid;
+    display: none;
+    width: 200px;
+    padding: 15px;
+    border-bottom-right-radius: 20px;
+    background-color: #3658FF;
+
+}
+
+menu a {
     text-decoration: none;
-    color: aliceblue;
+    padding: 3px;
+    color: white;
 }
-div.imagens{
+
+.primeira-sessao {
     display: flex;
-    display: inline-block;
-    padding-top: 10%;
-    margin-left: 10%;
-
+    align-items: center;
+    width: 1653px;
+    height: 852.1px;
 }
 
-img{
-    border-radius: 5%;
-    border: 3px solid #ccc;
-    margin: 15px;
+#pessoa {
+    margin-top: 100px;
 }
+
+.container-caixa {
+
+    margin-left: 25px;
+    width: 650px;
+    color: white;
+}
+
+.container-caixa h1 {
+    font-size: 57.16px;
+}
+
+.container-caixa p {
+    font-size: 39.56px;
+    margin-bottom: 8px;
+}
+
+.container-cursos {
+    display: flex;
+}
+
+.container-curso {
+    display: grid;
+    padding: 7px;
+}
+
+.container-curso p {
+    font-size: 24.0567px;
+}
+
+.container-curso img {
+    padding: 5px;
+    background-color: #3658FF;
+    border-radius: 18px;
+}
+
+.container-curso button {
+    width: 203px;
+    height: 43px;
+    border-radius: 18px;
+    font-size: 24.0567px;
+    margin-top: 10px;
+    color: white;
+    background-color: #3658FF;
+    cursor: pointer;
+}
+
+.container-trilhas {
+    height: 720px;
+}
+
+.container-trilhas h1 {
+    font-size: 60px;
+    margin-top: 5%;
+    margin-bottom: 8px;
+    text-align: center;
+    color: white;
+}
+
+.container-imagens {
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+
 
 
