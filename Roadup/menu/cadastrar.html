@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
+  <title>Cadastro</title>
 
-  <link rel="stylesheet" href="../css/login.css">
+  <link rel="stylesheet" href="../css/cadastrar.css">
   <link rel="shortcut icon" type="image/x-icon" href="../menu/img/favicon.ico">
 </head>
 <body>
@@ -37,19 +37,38 @@
 
       <form action="../menu/inicial.html">
 
-        <h2>Iniciar sessão!</h2>
+        <h2>Cadastre-se</h2>
+
+
+        <div class="campos-form">
+
+          <div class="container-entradas">
+            <label for="email">Nome</label> <br>
+            <input type="email" id="email" name="email">
+          </div>
+
+          <div class="container-entradas">
+            <label for="senha">Sobrenome</label> <br>
+            <input type="password" id="password" name="password"> <br>
+          </div>
+          
+
+         
+        </div>
 
         <label for="email">Email</label> <br>
-        <input type="email" id="email" name="email"><br>
-        <label for="senha">Senha</label> <br>
-        <input type="password" id="password" name="password"> <br>
+        <input type="email" id="email" name="email"> <br>
+
+        <label for="senha">Senha</label><br>
+        <input type="password" id="password" name="password"><br>
+        
+
         <div class="links">
 
-          <a href="../menu/cadastrar.html">Não tenho uma conta</a>
-          <a href="#">Esqueci minha senha</a>
+          <a href="../menu/login.html">Já tenho uma conta</a>
         </div>
         
-        <button type="submit">Entrar</button>
+        <button type="submit">Cadastrar</button>
       </form>  
 
     </div>
