@@ -1,0 +1,2 @@
+ # RoadUp
+ O **RoadUp** é uma web site que tem a função de atrair pessoas que possam ter interesse em cursos online na área da tecnologia ligando assim nossos usúarios com plataformas de cursos online, no nosso web site os usúarios consiguiram encontrar cursos de seus interesses e serão redirecionados para o web site das empresas que oferecem estes cursos. Além de poderem organizar suas rotinas de estudos através de nossa plataforma.
