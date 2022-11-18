@@ -54,7 +54,7 @@ div.text{
 div#fotos{
     margin-top: 15%;
 }
-.imagens,img{
+.imagens:img{
     border-radius: 50%;
     width: 28%;
     margin: 2%;
