@@ -126,6 +126,34 @@ menu a {
     margin-right: 100px;
 }
 
+footer {
+    height: 250px;
+    width: auto;
+    background-color: #3658FF;
+    color: white;
+}
 
+.container-footer ul {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+
+.grid-4 {
+    width: 550px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.grid-4 p {
+    margin-top: 5px;
+}
+
+.logos img {
+    width: 5%;
+    margin-top: 5px;
+}
 
 
