@@ -4,5 +4,5 @@ var resposta = window.prompt('Você também ama tecnologia?')
        }else if(resposta.toLowerCase() == 'nao' | resposta.toLowerCase() == 'não'){
         window.alert('Vai começar a gosta agora!')
        }else{
-        window.alert('Obrigado por acessar nosso site!')
+        window.alert('Obrigado por acessar o nosso site!')
        }
