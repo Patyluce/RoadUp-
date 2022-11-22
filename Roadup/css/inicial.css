@@ -35,6 +35,12 @@ nav span {
     cursor: pointer;
 }
 
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
 menu {
     display: grid;
     display: none;
@@ -124,6 +130,12 @@ menu a {
     display: flex;
     justify-content: center;
     margin-right: 100px;
+}
+
+#foto1,#foto2{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 1%;
 }
 
 footer {
