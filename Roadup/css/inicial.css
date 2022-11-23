@@ -113,6 +113,11 @@ menu a {
     cursor: pointer;
 }
 
+.container-curso button:hover {
+    background-color: white;
+    color: #1B0A41;
+}
+
 .container-trilhas {
     height: 720px;
 }
