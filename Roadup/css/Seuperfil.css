@@ -17,6 +17,11 @@ div#Home{
     margin-left: 2%;
     text-align: center;
 }
+div#Home:hover{
+ background-color: aliceblue;
+ color: #1B0A41;  
+}
+
 img{
     border-radius: 50%;
     width: 15%;
