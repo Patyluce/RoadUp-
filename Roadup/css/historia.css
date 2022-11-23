@@ -21,6 +21,10 @@ div#Home{
     padding: 0.75%;
   
 }
+div#Home:hover{
+    background-color: aliceblue;
+    color: #1B0A41;/*mudança*/
+}  
 
 
 nav{
