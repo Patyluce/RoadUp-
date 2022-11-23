@@ -26,7 +26,6 @@ nav div {
     display: flex;
     justify-content: center;
     align-items: center;
-
     width: 100%;
 }
 
@@ -48,7 +47,6 @@ menu {
     padding: 15px;
     border-bottom-right-radius: 20px;
     background-color: #3658FF;
-
 }
 
 menu a {
@@ -69,8 +67,7 @@ menu a {
 }
 
 .container-caixa {
-
-    margin-left: 25px;
+    margin-left: 0px;
     width: 650px;
     color: white;
 }
@@ -94,7 +91,9 @@ menu a {
 }
 
 .container-curso p {
-    font-size: 24.0567px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-right: 50px;
 }
 
 .container-curso img {
@@ -167,5 +166,3 @@ footer {
     width: 5%;
     margin-top: 5px;
 }
-
-
